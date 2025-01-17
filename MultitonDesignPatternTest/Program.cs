@@ -21,6 +21,7 @@ class Database
         if (!_databases.ContainsKey(key))
             _databases[key] = new Database();
         return _databases[key];
+
     }
 
     public void ConnectionString(string connectionString)
